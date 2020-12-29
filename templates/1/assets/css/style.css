@@ -1,0 +1,69 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #e96b56;
+}
+
+a:hover {
+    color: #e6573f;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    background: #545454;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+#topbar .contact-info {
+    color: #fff;
+}
+
+#topbar .contact-info a {
+    line-height: 1;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+    color: #e96b56;
+}
+
+#topbar .contact-info i {
+    color: #e96b56;
+    padding: 4px;
+}
+
+#topbar .contact-info .icofont-phone {
+    padding-left: 20px;
+}
+
+#topbar .social-links a {
+    color: #fff;
+    padding: 4px 0 4px 16px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+    color: #e96b56;
+}
+
+#topbar .social-links a:first-child {
+    border-left: 0;
+}
